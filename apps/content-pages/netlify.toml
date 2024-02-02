@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/cart"
-  to = "https://vocal-puffpuff-c0542b.netlify.app"
+  to = "https://vocal-puffpuff-c0542b.netlify.app/cart"
   status = 200
 
 [[redirects]]
