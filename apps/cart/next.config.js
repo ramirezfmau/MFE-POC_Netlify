@@ -1,3 +1,4 @@
 module.exports = {
-  transpilePackages: ["@repo/ui", "@repo/layout"]
+  transpilePackages: ["@repo/ui", "@repo/layout"],
+  basePath: '/cart'
 };

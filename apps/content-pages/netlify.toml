@@ -5,7 +5,7 @@
 
 [[redirects]]
   from = "/cart/*"
-  to = "https://vocal-puffpuff-c0542b.netlify.app/:splat"
+  to = "https://vocal-puffpuff-c0542b.netlify.app/cart/:splat"
   status = 200
 
 [[redirects]]
@@ -25,5 +25,5 @@
 
 [[redirects]]
   from = "/catalog/*"
-  to = "https://soft-faloodeh-391c78.netlify.app/:splat"
+  to = "https://soft-faloodeh-391c78.netlify.app/catalog/:splat"
   status = 200
