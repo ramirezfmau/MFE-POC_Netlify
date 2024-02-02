@@ -1,0 +1,15 @@
+[[redirects]]
+  from = "/cart"
+  to = "https://api.mysearch.com"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+
+
+
+[[redirects]]
+  from = "/"
+  to = "https://relaxed-biscotti-9fa89e.netlify.app/"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
