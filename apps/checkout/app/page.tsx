@@ -3,18 +3,26 @@ import styles from "./page.module.css";
 
 const LINKS = [
   {
-    title: "HomePage",
+    title: "Go to Home",
     href: "/",
   },
   {
-    title: "Catalog",
+    title: "Go to Catalog",
     href: "/catalog",
   },
   {
-    title: "About",
-    href: "/about",
+    title: "Go to Checkout",
+    href: "/checkout",
+  }
+  ,
+  {
+    title: "Go to Cart",
+    href: "/cart",
   },
-
+  {
+    title: "Go to About",
+    href: "/about",
+  }
 ];
 
 export default function Page(): JSX.Element {

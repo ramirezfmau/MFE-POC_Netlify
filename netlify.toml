@@ -4,3 +4,17 @@
   status = 200
   force = true
   headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from = "/catalog"
+  to = "https://soft-faloodeh-391c78.netlify.app"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from = "/checkout"
+  to = "https://glistening-monstera-a65270.netlify.app"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
