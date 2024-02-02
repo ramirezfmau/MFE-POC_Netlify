@@ -18,3 +18,10 @@
   status = 200
   force = true
   headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from = "/catalog/*"
+  to = "https://soft-faloodeh-391c78.netlify.app/:splat"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
