@@ -1,11 +1,8 @@
 
+import Link from "next/link";
 import styles from "./../page.module.css";
 
 const LINKS = [
-  {
-    title: "Go to Home",
-    href: "/",
-  },
   {
     title: "Go to Catalog",
     href: "/catalog",
@@ -20,6 +17,17 @@ const LINKS = [
     href: "/cart",
   },
   {
+    title: "Go to SSR Catalog",
+    href: "catalog/ssr-catalog",
+  }
+];
+
+const INTERNAL_LINKS = [
+  {
+    title: "Go to Home",
+    href: "/",
+  },
+  {
     title: "Go to About",
     href: "/about",
   },
@@ -27,12 +35,7 @@ const LINKS = [
     title: "Go to SSR",
     href: "/ssr",
   },
-  {
-    title: "Go to SSR Catalog",
-    href: "/catalog/ssr-catalog",
-  }
 ];
-
 async function getData() {
   const res = await fetch(`https://fakestoreapi.com/products`)
 
@@ -53,8 +56,13 @@ export default async function Page() {
     <main className={styles.main}>
       <h1>I am SSR Content Pages</h1>
       <div style={{ display: "flex" }}>
+      {INTERNAL_LINKS.map(({ title, href }) => (
+          <Link href={href} style={{padding: "50px"}}>
+            {title}
+          </Link>
+          ))}
         {LINKS.map(({ title, href }) => (
-          <a href={href} key={title} title={title} style={{ padding: "50px" }}>
+          <a href={href} style={{padding: "50px"}}>
             {title}
           </a>
         ))}

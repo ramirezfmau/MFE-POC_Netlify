@@ -1,27 +1,29 @@
 [[redirects]]
   from = "/cart"
-  to = "https://vocal-puffpuff-c0542b.netlify.app/"
+  to = "https://vocal-puffpuff-c0542b.netlify.app/cart"
   status = 200
-  force = true
-  headers = {X-From = "Netlify"}
 
 [[redirects]]
   from = "/catalog"
-  to = "https://soft-faloodeh-391c78.netlify.app"
+  to = "https://soft-faloodeh-391c78.netlify.app/catalog"
   status = 200
-  force = true
-  headers = {X-From = "Netlify"}
 
 [[redirects]]
   from = "/checkout"
-  to = "https://glistening-monstera-a65270.netlify.app"
+  to = "https://glistening-monstera-a65270.netlify.app/checkout"
   status = 200
-  force = true
-  headers = {X-From = "Netlify"}
+
+  [[redirects]]
+  from = "/checkout/*"
+  to = "https://glistening-monstera-a65270.netlify.app/checkout/:splat"
+  status = 200
 
 [[redirects]]
   from = "/catalog/*"
-  to = "https://soft-faloodeh-391c78.netlify.app/:splat"
+  to = "https://soft-faloodeh-391c78.netlify.app/catalog/:splat"
   status = 200
-  force = true
-  headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from = "/cart/*"
+  to = "https://vocal-puffpuff-c0542b.netlify.app/cart/:splat"
+  status = 200
