@@ -21,8 +21,17 @@ const LINKS = [
   {
     title: "Go to About",
     href: "/about",
+  },
+  {
+    title: "Go to SSR",
+    href: "/ssr",
+  },
+  {
+    title: "Go to SSR Catalog",
+    href: "/catalog/ssr-catalog",
   }
 ];
+
 
 export default function Page(): JSX.Element {
   return (
