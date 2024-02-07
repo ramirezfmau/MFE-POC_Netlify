@@ -25,5 +25,5 @@
 
 [[redirects]]
   from = "/catalog/*"
-  to = "https://catalog-poc.netlify.app/catalog:splat"
+  to = "https://catalog-poc.netlify.app/catalog/:splat"
   status = 200
