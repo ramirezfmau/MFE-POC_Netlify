@@ -20,10 +20,10 @@
 
 [[redirects]]
   from = "/catalog"
-  to = "https://catalog.netlify.app/catalog"
+  to = "https://catalog-poc.netlify.app/catalog"
   status = 200
 
 [[redirects]]
   from = "/catalog/*"
-  to = "https://catalog.netlify.app/catalog:splat"
+  to = "https://catalog-poc.netlify.app/catalog:splat"
   status = 200
